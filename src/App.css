@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 
 
-=======
->>>>>>> bb00f6e180b41e3a77a790c9dc6bd9fe8cfb5d53
 .App {
   text-align: center;
 }
@@ -41,7 +38,6 @@
     transform: rotate(360deg);
   }
 }
-<<<<<<< HEAD
 /* I add this */
 .list {
   text-align: left;
@@ -86,5 +82,3 @@
 .toolbar-class {
   border: 1px solid #ccc;
 }
-=======
->>>>>>> bb00f6e180b41e3a77a790c9dc6bd9fe8cfb5d53

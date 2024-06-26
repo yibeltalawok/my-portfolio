@@ -7,9 +7,28 @@ import {NavLink,useNavigate} from 'react-router-dom' ;
 import Img1 from '../img/y29.JPG';
 import Img3 from '../img/y7.JPG';
 import Img4 from '../img/mydocu.png'
-import Img5 from '../img/issue.png'
 import Img6 from '../img/reward.png'
+// file upload images
+import fileup1 from '../img/file.png';
+import fileup2 from '../img/filupload1.png';
+import fileup3 from '../img/audio.png'
+import fileup4 from '../img/post.png'
+// file promotion-web-site images
 import promoImg from '../img/promotion.png'
+import promoImg1 from '../img/promotion1.png';
+import promoImg2 from '../img/promtion2.png'
+// file ERP images
+import empDB from '../img/empDB.png'
+import bundleImg from '../img/bundleImg.png';
+import orderImg from '../img/orderImg.png'
+import attendance from '../img/attendance.png'
+import issue from '../img/issue.png'
+//ff
+import busReservation from '../img/busReservation.png';
+import dashboard from '../img/dshboard.png';
+import invoce from '../img/invoce.png'
+import tiketing from '../img/ticket.png'
+
 import me from '../img/me.jpg'
 import SimpleImageSlider from "react-simple-image-slider";
 import { RiMenuLine } from "react-icons/ri";
@@ -19,8 +38,8 @@ const About = () => {
     { url:Img6 } ,
     { url:Img1 },
     { url:Img3 },
-   
-  ];
+      ];
+
   //menu bar
  const [menu, setMenu] = useState(false);
  const setmenu = () =>{
@@ -281,13 +300,11 @@ const [currentIndex, setCurrentIndex] = useState(0);
         </section>
         <section id='projects' className="">
          <div className=" mx-auto md:pl-10 pl-1 md:pt-1 pt-5">
-            <h2 className="text-3xl font-bold mb-4 text-center md:ml-16 ml-1 md:p-5 p-1 bg-slate-950 text-gray-300 w-11/12 rounded-md">My Works</h2>
-            <div className='md:flex md:pl-32 pl-1 items-center p-3'>
-              <div className=' md:w-1/3 sm:w-full'>
-              <img className="rounded-md w-full" src={Img5} alt='No' />
-              </div>
-            <div className='md:flex md:w-8/12 sm:w-full mb-2 md:pl-3 pl-1 md:p-10'>
-            <p className="text-gray-600 mb-1 ml-2 md:p-8 ">
+            <h2 className="text-3xl font-bold mb-2 text-center md:ml-16 ml-1 md:p-5 p-1 bg-slate-950 text-gray-300 w-11/12 rounded-md">My Works</h2>
+            <div className='md:pl-32 pl-1 items-center p-3'>
+
+            <div className='md:flex md:w-10/12 sm:w-full md:pl-3 pl-1 md:p-5'>
+            <p className="text-gray-600 mb-1 ml-2 md:p-4 ">
               <b className='ont-bold text-gray-950 md:mr-1'>ERP:</b>I develop my ERP system using different technology.
                  I use programming languages and frameworks for back end and
                 front end development.I develop this ERP system two times. First I develop by using Vue.js,css for front end
@@ -296,46 +313,202 @@ const [currentIndex, setCurrentIndex] = useState(0);
                  technology above when I develop this ERP system.
               </p>
               </div>
-             </div>
-             <div className='md:flex md:pl-32 pl-1 items-center p-3'>
-              <div className=' md:w-1/3 sm:w-full'>
-              <img className="rounded-md w-full" src={Img5} alt='No' />
+              <br />
+              <div className='md:w-11/12 sm:w-full md:flex'>
+              <div>
+              <img className="rounded-md w-full mr-3 border-slate-300 border-2" src={empDB} alt='No' />
+              <div className="mt-1 pl-4 flex-1">
+                <div className="h-auto">
+                <span className=" font-bold"> Employee dashboard of ERP system</span>
+               </div>
               </div>
-              <div className='flex md:w-8/12 sm:w-full mb-2 md:pl-3 pl-1 md:p-10'>
-              <p className="text-gray-600 mb-1 ml-2 md:p-8 ">
+              </div>
+              <div>
+              <img className="rounded-md w-full ml-3 border-slate-300 border-2" src={issue} alt='No' />
+              <div className="mt-1 pl-4 flex-1">
+                <div className="h-auto">
+                <span className=" font-bold"> Issue</span>
+               </div>
+              </div>
+              </div>
+              </div>
+              <br />
+              <div className='md:w-11/12 sm:w-full md:flex'>
+              <div>
+              <img className="rounded-md w-full mr-3 border-slate-300 border-2" src={orderImg} alt='No' />
+              <div className="mt-1 pl-4 flex-1">
+                <div className="h-auto">
+                <span className=" font-bold"> Order images </span>
+               </div>
+              </div>
+              </div>
+              <div>
+              <img className="rounded-md w-full ml-3 border-slate-300 border-2" src={attendance} alt='No' />
+              <div className="mt-1 pl-5 flex-1">
+                <div className="h-auto">
+                <span className=" font-bold"> attendance settlment</span>
+               </div>
+              </div>
+              </div>
+              </div>
+              <br />
+              <div className='md:w-1/2 sm:w-full md:flex'>
+              <div className='w-11/12'>
+              <img className="rounded-md w-full mr-5 border-slate-300 border-2" src={bundleImg} alt='No' />
+              <div className="mt-1 flex-1">
+                <div className="h-auto">
+                <span className=" font-bold"> ERP system bundles</span>
+               </div>
+              </div>
+              </div>
+              </div>
+             </div>
+             <div className='md:pl-32 pl-1 items-center p-3'>
+             <div className='md:flex md:w-10/12 sm:w-full mb-2 md:pl-3 pl-1 md:p-5'>
+               <p className="text-gray-600 mb-1 ml-2 md:p-4 ">
                 <b className='ont-bold text-gray-950 md:mr-1'>Bus Reservation System: </b>I use programming languages and frameworks for back end and
                 front end development of Bus Reservation System.I develop this Bus Reservation System by using 
                 React.js,tailwind css for front end and Node.js,Express for back end. I use mysql(sequelize) for my Bus 
                 Reservation System.
               </p>
               </div>
-             </div>
-             <div className='md:flex md:pl-32 pl-1 items-center p-3'>
-              <div className=' md:w-1/3 sm:w-full'>
-              <img className="rounded-md w-full" src={promoImg} alt='No' />
+              <br />
+              <div className='md:w-11/12 sm:w-full md:flex'>
+              <div>
+              <img className="rounded-md w-full mr-3 border-slate-300 border-2" src={busReservation} alt='No' />
+              <div className="mt-1 pl-4 flex-1">
+                <div className="h-auto">
+                <span className=" font-bold"> busreservation system</span>
+               </div>
               </div>
-              <div className='md:flex md:w-8/12 sm:w-full mb-2 md:pl-3 pl-1 md:p-10'>
-              <p className="text-gray-600 mb-1 ml-2 md:p-8 ">
-              <b className='ont-bold text-gray-950 md:mr-1'>ERP:</b>
+              </div>
+              <div>
+              <img className="rounded-md w-full ml-3 border-slate-300 border-2" src={invoce} alt='No' />
+              <div className="mt-1 pl-4 flex-1">
+                <div className="h-auto">
+                <span className=" font-bold"> Seat selection and get ticket</span>
+               </div>
+              </div>
+              </div>
+              </div>
+              <br />
+              <div className='md:w-11/12 sm:w-full md:flex'>
+              <div>
+              <img className="rounded-md w-full mr-3 border-slate-300 border-2" src={tiketing} alt='No' />
+              <div className="mt-1 pl-4 flex-1">
+                <div className="h-auto">
+                <span className=" font-bold"> bus assignation image </span>
+               </div>
+              </div>
+              </div>
+              <div>
+              <img className="rounded-md w-full ml-3 border-slate-300 border-2" src={dashboard} alt='No' />
+              <div className="mt-1 pl-5 flex-1">
+                <div className="h-auto">
+                <span className=" font-bold"> busreservation system dashboard</span>
+               </div>
+              </div>
+              </div>
+              </div>
+             </div>
+             <br />
+             <div className='md:pl-32 pl-1 items-center p-3'>
+             <div className='md:flex md:w-10/12 sm:w-full mb-2 md:pl-3 pl-1 md:p-5'>
+               <p className="text-gray-600 mb-1 ml-2 md:p-4 ">
+               <b className='ont-bold text-gray-950 md:mr-1'>promotion website:</b>
                I use programming languages and frameworks for
                 front end development of promotion website.I develop this Bus Reservation System  by using 
                 React.js,tailwind css. 
               </p>
               </div>
-             </div>
-             <div className='md:flex md:pl-32 pl-1 items-center p-3'>
-              <div className=' md:w-1/3 sm:w-full'>
-              <img className="rounded-md w-full" src={Img5} alt='No' />
+              <br />
+              <div className='md:w-11/12 sm:w-full md:flex'>
+              <div>
+              <img className="rounded-md w-full mr-3 border-slate-300 border-2" src={promoImg1} alt='No' />
+              <div className="mt-1 pl-4 flex-1">
+                <div className="h-auto">
+                <span className=" font-bold"> promotional web screenshot images</span>
+               </div>
               </div>
-              <div className='md:flex md:w-8/12 sm:w-full mb-2 md:pl-3 pl-1 md:p-10'>
-              <p className="text-gray-600 mb-1 ml-2 md:p-8 ">
-              <b className='ont-bold text-gray-950 md:mr-1'> File Managemen System :</b>
+              </div>
+              <div>
+              <img className="rounded-md w-full ml-3 border-slate-300 border-2" src={promoImg2} alt='No' />
+              <div className="mt-1 pl-4 flex-1">
+                <div className="h-auto">
+                <span className=" font-bold"> Order images </span>
+               </div>
+              </div>
+              </div>
+              </div>
+              <br />
+              <div className='md:w-1/2 sm:w-full md:flex'>
+              <div className=' m-11/12'>
+              <img className="rounded-md w-full ml-3 border-slate-300 border-2" src={promoImg} alt='No' />
+              <div className="mt-1 pl-4 flex-1">
+                <div className="h-auto">
+                <span className=" font-bold"> promotional website first page</span>
+               </div>
+              </div>
+              </div>
+              <div className=''>
+              <div className="mt-1 flex-1">
+                <div className="h-auto">
+               </div>
+              </div>
+              </div>
+              </div>
+             </div>
+
+             <div className='md:pl-32 pl-1 items-center p-3'>
+             <div className='md:flex md:w-10/12 sm:w-full mb-2 md:pl-3 pl-1 md:p-5'>
+               <p className="text-gray-600 mb-1 ml-2 md:p-4 ">
+               <b className='ont-bold text-gray-950 md:mr-1'> File Managemen System :</b>
               I use programming languages and frameworks for back end and
                 front end development of File Managemen System.I develop this File Managemen System by using 
                 React.js,tailwind css for front end and Node.js,Express for back end. I use mysql(sequelize) for my Bus.
               </p>
               </div>
-             </div> 
+              <br />
+              <div className='md:w-11/12 sm:w-full md:flex'>
+              <div>
+              <img className="rounded-md w-full mr-3 border-slate-300 border-2" src={fileup2} alt='No' />
+              <div className="mt-1 pl-4 flex-1">
+                <div className="h-auto">
+                <span className=" font-bold"> file upload page </span>
+               </div>
+              </div>
+              </div>
+              <div>
+              <img className="rounded-md w-full ml-3 border-slate-300 border-2" src={fileup1} alt='No' />
+              <div className="mt-1 pl-5 flex-1">
+                <div className="h-auto">
+                <span className=" font-bold"> uploaded file lists</span>
+               </div>
+              </div>
+              </div>
+              </div>
+              <br />             
+              <br />
+              <div className='md:w-11/12 sm:w-full md:flex'>
+              <div>
+              <img className="rounded-md w-full mr-3 border-slate-300 border-2" src={fileup3} alt='No' />
+              <div className="mt-1 pl-4 flex-1">
+                <div className="h-auto">
+                <span className=" font-bold"> audio lists </span>
+               </div>
+              </div>
+              </div>
+              <div>
+              <img className="rounded-md w-full ml-3 border-slate-300 border-2" src={fileup4} alt='No' />
+              <div className="mt-1 pl-5 flex-1">
+                <div className="h-auto">
+                <span className=" font-bold"> post data screenshot</span>
+               </div>
+              </div>
+              </div>
+              </div>
+              <br />   
+             </div>
           </div>
         </section>
         <section id='contact' className="">

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3bf7699.css",
-    "main.js": "/static/js/main.0fa4b9e1.js",
+    "main.css": "/static/css/main.3b6e82ec.css",
+    "main.js": "/static/js/main.ef5b35ba.js",
     "static/media/y7.JPG": "/static/media/y7.3a867fa08b604d194837.JPG",
     "static/media/y29.JPG": "/static/media/y29.1939792e4609ee2522e1.JPG",
     "static/media/busReservation.png": "/static/media/busReservation.afb61e81ac5b210558aa.png",
@@ -24,11 +24,11 @@
     "static/media/ticket.png": "/static/media/ticket.b1b0437f50b31c29aff4.png",
     "static/media/me.jpg": "/static/media/me.31d0183e94876c2fa1a0.jpg",
     "index.html": "/index.html",
-    "main.c3bf7699.css.map": "/static/css/main.c3bf7699.css.map",
-    "main.0fa4b9e1.js.map": "/static/js/main.0fa4b9e1.js.map"
+    "main.3b6e82ec.css.map": "/static/css/main.3b6e82ec.css.map",
+    "main.ef5b35ba.js.map": "/static/js/main.ef5b35ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3bf7699.css",
-    "static/js/main.0fa4b9e1.js"
+    "static/css/main.3b6e82ec.css",
+    "static/js/main.ef5b35ba.js"
   ]
 }

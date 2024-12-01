@@ -85,7 +85,7 @@ const Footers = () => {
              </divLink>
              </div>
               </div>
-            <div className="">
+            {/* <div className="">
              <h3 className="text-orange-500 hover:text-primary text-xl mb-5 flex items-center justify-center md:justify-start decoration-4 decoration-pink-800 underline underline-offset-8">     
                QUICK LINK
              </h3>
@@ -101,8 +101,8 @@ const Footers = () => {
             <p className="mb-4 motion-safe:hover:translate-x-2 text-lg duration-300 font-display text-white">
               <a href="#">Projects</a>
             </p>
-          </div>
-          <div className="">
+          </div> */}
+          {/* <div className="">
             <h3 className="text-orange-500 hover:text-primary uppercase text-xl mb-5 flex items-center justify-center md:justify-start up decoration-4 decoration-pink-800 underline underline-offset-8">
               Contact
             </h3>
@@ -121,7 +121,7 @@ const Footers = () => {
             <p className="font-display text-white text-lg flex items-center justify-center md:justify-start mb-4 motion-safe:hover:translate-x-2 duration-300">
             Open Source
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
       <div class="text-center p-6 ">
